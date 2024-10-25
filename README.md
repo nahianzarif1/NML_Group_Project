@@ -9,7 +9,7 @@ roll:2107081
 roll:2107098
 
 
-a) Jacobi iteration method
+
 
 
 Al Nahian Zarif
