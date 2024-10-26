@@ -2,11 +2,11 @@
 This project is about solving different type of equations and finding there roots.We have learnt about solving Linear Equations,Non linear Equations,Ordinary Differential Equations and Matrix Inversion Process.The group members are :
 
 1.Abu Jar Gefaree Sayeem
-roll:2107033
+Roll:2107033
 2.Mahhia Kamal Mim
-roll:2107081
+Roll:2107081
 3.Al Nahian Zarif
-roll:2107098
+Roll:2107098
 
 
 
@@ -40,6 +40,29 @@ It is a numerical method to solve ordinary differential equation of 1st degree.
 A brief description of how the range kutta  method works in my code :
 set initial values x0,y0 and xn and step size h.For each interval, compute four slope estimates k1,k2,k3 and k4 at different points to approximate the slope over h.Then use a weighted average of these slope to find out y.Move x ahead by h and repat until reaches xn.
 Finally show x and y for solution.
+
+
+
+
+
+
+
+
+
+
+Mahhia Kamal Mim
+
+
+Linear equations:
+
+1.Gauss Elimination Method: The Gauss Elimination method transforms the augmented matrix of a system of linear equations into an upper triangular form through a series of elementary row operations. By systematically eliminating variables, the method creates zeros below each pivot (the leading coefficients) in each column, enabling back-substitution to find the values of the unknowns. This algorithm is efficient for small to medium-sized systems, with a time complexity of O(n^3).
+
+2.Gauss-Jordan Elimination Method: The Gauss-Jordan Elimination method is an enhancement of the Gauss Elimination technique, aiming to reduce the matrix to its reduced row echelon form (RREF). It not only eliminates variables below the pivots but also clears the entries above them, resulting in a matrix where each pivot is 1, and all other elements in the pivot's column are zero. This final form allows for direct reading of the solutions, eliminating the need for back-substitution, and operates with a time complexity of O(n^3).
+
+3.LU Factorization: LU Factorization factors a square matrix A into the product of a lower triangular matrix L and an upper triangular matrix U.This method allows for efficient solving of linear systems by first solving L.y=b using forward substitution, followed by U.x=y using  back-substitution.The LU factorization method is particularly advantageous when solving multiple systems with the same coefficient matrix but different right-hand sides, with a factorization complexity of O(n^3) and a sunsequent solution complexity of O(n^2).
+
+4.Matrix Operations: Essential matrix operations such as addition, subtraction, multiplication, determinant calculation, and finding inverses are implemented. Matrix addition and subtraction are performed element-wise for matrices of the same dimensions, while multiplication accommodates both scalar and matrix operations. The determinant of a square matrix is calculated to evaluate its properties, such as invertibility, and the inverse of a matrix is computed for non-singular matrices. Each operation has varying time complexities based on the dimensions and types of the matrices involved.
+
 
 
 
