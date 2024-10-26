@@ -2,11 +2,13 @@
 This project is about solving different type of equations and finding there roots.We have learnt about solving Linear Equations,Non linear Equations,Ordinary Differential Equations and Matrix Inversion Process.The group members are :
 
 1.Abu Jar Gefaree Sayeem
-Roll:2107033
+ Roll:2107033
+
 2.Mahhia Kamal Mim
-Roll:2107081
+ Roll:2107081
+ 
 3.Al Nahian Zarif
-Roll:2107098
+ Roll:2107098
 
 
 
