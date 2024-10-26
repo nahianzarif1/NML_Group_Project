@@ -10,9 +10,50 @@ roll:2107098
 
 
 
+Abu Jar Gefaree Sayeem
+
+Linear equation:
+
+
+a)Jacobi iteration method: 
+It is one of the simple iterative method. This method updates each variable independently by using values from the previous iteration.  Each variable update does not depend on the others within the same iteration. 
+
+A brief description of how the Jacobi iteration method works in my code :
+The program will ask the user to enter coefficients for five linear equations (in the standard form, i.e. a*x + b*y + c*z + d*w + e*v = f).
+The code checks for diagonal dominance as the factor (in each row, all main coefficients must be larger than the sum of other coefficients). It check that there is a diagonal dominance, and if it fails then make all possible row swaps to fix the matrix; but in case of success exit with an error. The program initializes all variables ( x, y, z, w ,v) with zero.Next, the program solves up to 20 Jacobi iterations(iteratively) as follows;at each iteration, only one variable is updated at a time by using the most recent values from previous iterations while keeping all other variables fixed.Each iteration saves new values of x, y, z, w and v.
+The program is calculating the error for every iteration, for each of variable.For the first 20 iterations, this program prints values & errors of each variable to see how it converges.
+
+
+
+b) Gauss seidel  method:
+It is an improved version of jacobi iteration method.Here updates each variable immediately, using the most recent values within the same iteration.
+
+A brief description of how the gauss seidel  method works in my code :
+The program will ask the user to enter coefficients for five linear equations (in the standard form, i.e. a*x + b*y + c*z + d*w + e*v = f).The code checks for diagonal dominance as the factor (in each row, all main coefficients must be larger than the sum of other coefficients). It check that there is a diagonal dominance, and if it fails then make all possible row swaps to fix the matrix; but in case of success exit with an error.The program initializes all variables ( x, y, z, w ,v) with zero.Every iteration, the program:
+–Recursively applies updates to each variable ( x, y, z, w ,v) based on the latest update values for each mask element in order to make most of newly computed one iteration input which leads better convergence efficiency.It will calculate error for all variables after each iteration to track Convergence.For the first 20 iterations, this program prints values & errors of each variable to see how it converges.
+
+
+
+C) Runge-Kutta method:
+It is a numerical method to solve ordinary differential equation of 1st degree.
+
+A brief description of how the range kutta  method works in my code :
+set initial values x0,y0 and xn and step size h.For each interval, compute four slope estimates k1,k2,k3 and k4 at different points to approximate the slope over h.Then use a weighted average of these slope to find out y.Move x ahead by h and repat until reaches xn.
+Finally show x and y for solution.
+
+
+
+
+
+
+
 
 
 Al Nahian Zarif
+
+
+
+
 Non Linear Equations: 
 
 
